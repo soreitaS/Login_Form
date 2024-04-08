@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(susan-wilkinson-IHrTJiiPdag-unsplash.jpg);
+}
+
+.signup-form{
+    width: 300px;
+    height: 450px;
+    background-color:rgb(239, 200, 151);
+    padding: 20px;
+    text-align: center;
+    background: url(susan-wilkinson-IHrTJiiPdag-unsplash.jpg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+
+.signup-form h1{
+    margin-top: 50px;
+    font-size: 45px;
+    color: rgb(19, 44, 67);
+}
+
+.signup-form input{
+    display: block;
+    width: 100%;
+    padding: 0px 16px;
+    height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+}
+
+.txt{
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+
+.signup-btn{
+    margin-top: 50px;
+    margin-bottom: 1px;
+    background: rgb(18, 72, 95);
+    color: antiquewhite;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.8s;
+    display: block;
+    font-size: 17px;
+}
+
+.signup-btn:hover{
+    transform: scale(0.94);
+    background: antiquewhite;
+    color:rgb(18,72,95);
+}
+
+.signup-form a{
+    color: rgb(1, 43, 27);
+    font-size: 16px;
+    text-decoration:none;
+    transition: 0.8s;
+    display: block;
+}
+
+.signup-form a:hover{
+    color: rgb(224, 255, 113);
+}
